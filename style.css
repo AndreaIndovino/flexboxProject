@@ -1,0 +1,32 @@
+/* stylesheet.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: cyan;
+}
+
+.navbar {
+    border: solid 6px;
+    background-color: seagreen;
+}
+
+.headerlogo {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: solid;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headerlink {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+}
