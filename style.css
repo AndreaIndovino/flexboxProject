@@ -3,17 +3,22 @@
 .container {
     display: flex;
     flex-direction: column;
-    background-color: cyan;
 }
 
-.navbar, .footer{
+.header, .footer{
     border: solid 6px;
     background-color: seagreen;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .headerlogo {
     margin-top: 10px;
     margin-left: 10px;
+    margin-bottom: 10px;
     border: solid;
     border-radius: 10px;
     display: flex;
@@ -22,7 +27,7 @@
 
 .headerlink {
     display: flex;
-    justify-content: center;
+    align-items: flex-end;
     font-size: 30px;
     margin-top: 20px;
     font-size: 24px;
@@ -31,12 +36,36 @@
 
 a {
     text-decoration: none;
+    margin: 10px;
+    color: beige;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    image-rendering: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.presentation {
+    margin-left: 20px;
 }
 
 h1 {
     font-size: 48px;
-    font-weight: extra-bold #F9FAF8;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    justify-content: center;
 }
+
 
 p {
     font-size: 18px;
@@ -45,6 +74,11 @@ p {
 
 .button, .calltoaction {
     background-color: #3882F6;
+    color: white;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
 }
 
 .quotesection {
