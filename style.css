@@ -76,6 +76,24 @@ h1 {
     margin-bottom: 10px;
 }
 
+.contentbox {
+    background-color: lightcyan;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contentboximage {
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 .quotesection {
     background-color: #E5E7EB;
 }
