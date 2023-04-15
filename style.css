@@ -130,6 +130,10 @@ blockquote {
     padding-left: 3rem;
     color: black;
     background-color:lightcyan;
+    display: flex;
+    align-items: center;
+    flex-direction: inherit;
+    text-align: center;
 }
 
 .footer p{
